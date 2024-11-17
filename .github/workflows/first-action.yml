@@ -2,7 +2,7 @@ name: First workflow
 on: workflow_dispatch #manually triggered workflow
 jobs: 
   first-job: #not reserved
-    runs-on: unbuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: print greetin
         run: echo "hello world"
